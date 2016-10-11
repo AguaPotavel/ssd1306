@@ -20,7 +20,7 @@ The SSD1306 device is an I2C device, so connecting to the Orange Pi 2 is very st
 P1 Header
 ---------
 
-![alt tag](https://raw.githubusercontent.com/nukem/ssd1306/master/doc/68747470733a2f2f692e69696e666f2e637a2f696d616765732f3339392f6f72616e67652d70692d706c75732d352e706e67.png)
+![GPIOS][[https://raw.githubusercontent.com/nukem/ssd1306/master/doc/68747470733a2f2f692e69696e666f2e637a2f696d616765732f3339392f6f72616e67652d70692d706c75732d352e706e67.png]]
 
 ^^^^^^^^^
 

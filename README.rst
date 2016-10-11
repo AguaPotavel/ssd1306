@@ -18,16 +18,20 @@ GPIO pin-outs
 The SSD1306 device is an I2C device, so connecting to the Orange Pi 2 is very straightforward:
 
 P1 Header
+---------
+
+![alt tag](https://raw.githubusercontent.com/nukem/ssd1306/master/doc/68747470733a2f2f692e69696e666f2e637a2f696d616765732f3339392f6f72616e67652d70692d706c75732d352e706e67.png)
+
 ^^^^^^^^^
 
 For prototyping, the P1 header pins should be connected as follows:
 
 ========== ====== ============ ======== ============== ========
-Board Pin  Name   Remarks      RPi Pin  RPi Function   Colour
+Board Pin  Name   Remarks      OPi2 Pin  OPi2 Function   Colour
 ---------- ------ ------------ -------- -------------- --------
-1          VCC    +3.3V Power  P01-1    3V3            White
-3          SCL    Clock        P01-5    GPIO 3 (SCL)   Purple
-5          SDA    Data         P01-3    GPIO 2 (SDA)   Grey
+1          VCC    +3.3V Power  P01-1    3V3            Orange
+3          SDA    Data         PA12-3   GPIO 2 (SDA)   Blue
+5          SCL    Clock        PA11-5   GPIO 3 (SCL)   Blue
 8          GND    Ground       P01-6    GND            Black
 ========== ====== ============ ======== ============== ========
 

@@ -12,6 +12,11 @@ The SSD1306 display is 128x64 pixels, and the board is `tiny`, and will fit neat
 inside the RPi case (the SH1106 is slightly different, in that it supports 132 x 64
 pixels). 
 
+
+.. image:: https://raw.githubusercontent.com/nukem/ssd1306/master/doc/IMG_20161012_011420.jpg
+   :alt: GPIOS
+   
+   
 GPIO pin-outs
 -------------
 

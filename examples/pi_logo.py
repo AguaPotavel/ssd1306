@@ -6,5 +6,5 @@ from PIL import Image
 
 
 with canvas(device) as draw:
-    logo = Image.open('examples/images/pi_logo.png')
+    logo = Image.open('images/pi_logo.png')
     draw.bitmap((32, 0), logo, fill=1)

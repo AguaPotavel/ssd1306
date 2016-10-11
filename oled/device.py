@@ -58,7 +58,7 @@ class device(object):
     Base class for OLED driver classes
     """
 
-    def __init__(self, port=1, address=0x3C, cmd_mode=0x00, data_mode=0x40):
+    def __init__(self, port=0, address=0x3C, cmd_mode=0x00, data_mode=0x40):
         self.cmd_mode = cmd_mode
         self.data_mode = data_mode
         self.bus = smbus.SMBus(port)
@@ -93,7 +93,7 @@ class sh1106(device):
     data() methods are discouraged.
     """
 
-    def __init__(self, port=1, address=0x3C, width=128, height=64):
+    def __init__(self, port=0, address=0x3C, width=128, height=64):
         super(sh1106, self).__init__(port, address)
         self.width = width
         self.height = height
@@ -154,7 +154,7 @@ class ssd1306(device):
     called to affect the brightness. Direct use of the command() and
     data() methods are discouraged.
     """
-    def __init__(self, port=1, address=0x3C, width=128, height=64):
+    def __init__(self, port=0, address=0x3C, width=128, height=64):
         super(ssd1306, self).__init__(port, address)
         self.width = width
         self.height = height

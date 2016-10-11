@@ -4,7 +4,7 @@ parser = argparse.ArgumentParser(description='oled arguments')
 parser.add_argument(
     '--port', '-p',
     type=int,
-    default=1,
+    default=0,
     help='i2c bus number',
 )
 parser.add_argument(

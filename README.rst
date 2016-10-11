@@ -2,7 +2,7 @@ SSD1306 / SH1106 OLED Driver
 ============================
 
 Interfacing OLED matrix displays with the SSD1306 (or SH1106) driver in Python 2 or 3 using
-I2C on the Raspberry Pi. The particular kit I bought can be acquired for 
+I2C on the OrangePi 2. The particular kit I bought can be acquired for 
 a few dollars from `Banggood <http://www.banggood.com/0_96-Inch-4Pin-White-IIC-I2C-OLED-Display-Module-12864-LED-For-Arduino-p-958196.html?p=HV06122955944201511S>`_. Further 
 technical details for the SSD1306 OLED display can be found in the
 `datasheet <https://raw.githubusercontent.com/rm-hull/ssd1306/master/doc/tech-spec/SSD1306.pdf>`_ [PDF]. 
@@ -36,11 +36,8 @@ Board Pin  Name   Remarks      RPi Pin  RPi Function   Colour
 Pre-requisites
 --------------
 
-This was tested with Raspian on a rev.2 model B, with a vanilla kernel version 4.1.16+. 
-Ensure that the I2C kernel driver is enabled::
-
 This was tested with OrangePi 2 with kernel 3.4.39 Fedora distribution.
-Ensure that the I2C kernel module is loaded
+Ensure that the I2C kernel module is loaded::
 
 $ lsmod
 Module                  Size  Used by

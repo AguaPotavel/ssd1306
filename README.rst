@@ -1,4 +1,4 @@
-SSD1306 / SH1106 OLED Driver
+OrangePi 2 SSD1306 / SH1106 OLED Driver
 ============================
 
 Interfacing OLED matrix displays with the SSD1306 (or SH1106) driver in Python 2 or 3 using

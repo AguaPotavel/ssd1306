@@ -50,7 +50,7 @@
 # As before, as soon as the with block completes, the canvas buffer is flushed
 # to the device
 
-import smbus
+import smbus2 as smbus
 
 
 class device(object):
